@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Tipografía -->
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Supermercado+One&display=swap" rel="stylesheet">
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- Css -->
+<link rel="stylesheet" href="../css/main.css">
+<!-- Iconos -->
+<script src="https://kit.fontawesome.com/58406b1f0a.js" crossorigin="anonymous"></script>
+
+    <title> Sube tú cv</title>
+</head>
+<body>
+    
+<!-- se puede trabajar con container ó container-fluid -->
+<header id="top">
+    <div class="container">
+        <h1 class="titleIndex"> Deja tú cv</h1>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark row"> 
+           <div class="row">
+            <div>
+                <a class="navbar-logo" href="#">
+                    <img src="../Pics/logo-ElectricidadSerra.png" alt="Logo" width="300" class="d-block mx-auto">
+                </a>
+                <button class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toogle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto>
+                        <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="quienes somos.html">¿Que es Electricidad Serra?</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="productos.html">Línea de prodcutos oficiales</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="ubicacion.html">Ubicación</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="deja tu cv.html">Déjanos tu cv</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="contactos.html">Contáctanos</a>
+                        </li>
+                        <li>
+                            <!--Caja de búsqueda-->
+                         <form class="col-md-offset-4">
+                             <p>
+                             <input type="search" name="buscaloquequieras" placeholder="Búsqueda">
+                            <input type="submit" value="Buscar">
+                             </p>    
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+           </div>
+       </nav>
+    </div>
+
+        </header>
+
+        <main>
+            <form class="container">
+                <fieldset class="deja-cv row">
+                    <legend>Déjanos tu curriculum y nosotros te contactaremos</legend>
+                    <div class="nombreCompleto col-10" > 
+                        <label for="Nombre">Deja tu nombre</label>
+                        <input type="text"name="Nombre" 
+                        placeholder="Nombre completo">
+                    </div>
+                    
+                    <div class="exp col-auto" > 
+                        <label for="Años de experiencia">Experiencia</label>
+                        <input type="text"name="Que tan sabio eres" placeholder="¿Ancestral?">
+                    </div>
+                       
+                    </div>
+                    <!--Input es etiqueta para crear botones-->
+                    <div class="gener col-auto" > 
+                        <label for="Sexo">Género</label> <br>
+                        <input type="radio" name="Sexo" value="Másculino">Másculino
+                        <input type="radio"name="Sexo"value="Feménino">Feménino 
+                        <input type="radio"name="Sexo"value="Eres lo que quieres ser">Eres lo que quieres ser
+                    </div>
+                    
+                
+                    <div class="send col-auto" > 
+                        <input type="file"name="Subetucv">
+                        <input type="submit"value="Enviar">
+                        <input type="submit"value="Refrescar">
+                    </div>
+                </fieldset>
+            </form>
+        </main>
+
+        <footer class="footerCont">
+            <div class="container">
+                <div class="row justify-content-between ">
+                    <div class="col-12" style="margin: bottom 2rem;">
+                        <div class="d-flex flex-column flex-lg-row align-items-center justyfy-content-center justify-content-lg-between">
+                            <h4 class="logoFooter">Electricidad Serra</h4>
+                            <div class="redesCont d-flex">
+                           
+                                    <button class="insta">
+                                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                                    </button>
+                              
+                                
+                                    <button class="Face"> 
+                                        <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook"></i></a> 
+                                    </button>
+                               
+                                    <button class="Twitt"> 
+                                        <a href="https://twitter.com/?logout=1640379197367" target="blank"><i class="fab fa-twitter-square"></i></a> 
+                                    </button>
+                             
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                    
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-8 col-md-7 col-lg-5">
+                        <p class="address"><i class="fas fa-map-marker-alt"></i>
+                            Pasco 1152, Rosario, Santa Fe.
+                            <br>
+                            Lun-Vie de 8:30 a 12:30 y de 14:30 a 18:30 Sáb de 8:30 a 12:30. 
+                            <a href="https://www.google.com/maps/place/Electricidad+Serra+-+Hipermercado+El%C3%A9ctrico/@-32.9593439,-60.6443098,17z/data=!4m5!3m4!1s0x95b7ab0f32fb22f5:0x2197bd93759c165a!8m2!3d-32.9593439!4d-60.6421211">¿Cómo llego?</a>
+                            <p>Telf: 0341-486-1400</p>
+                        </p>
+                        <p class="address"><i class="fas fa-map-marker-alt"></i>
+                            Hipólito Yrigoyen 729, S2200 San Lorenzo, Santa Fe.
+                            <br>
+                            Lun-Vie de 8:30 a 17:30
+                            <a href="https://www.google.com/maps/place/SERRA/@-32.8567395,-60.8294326,11z/data=!4m9!1m2!2m1!1selectricidad+serra+san+lorenzo!3m5!1s0x95b65aef02fd14e3:0x4afcc3be3b929d56!8m2!3d-32.754291!4d-60.7365738!15sCh5lbGVjdHJpY2lkYWQgc2VycmEgc2FuIGxvcmVuem9aICIeZWxlY3RyaWNpZGFkIHNlcnJhIHNhbiBsb3JlbnpvkgEXZWxlY3RyaWNhbF9zdXBwbHlfc3RvcmU">¿Cómo llego?</a>
+                            <p>
+                                Telf:03476-430-777
+                            </p>
+    
+                        </p>
+                      
+    
+                    </div>
+               
+                    <div class="col-12 col-sm-8 col-md-7 col-lg-3">
+                        <!-- Información de importancia -->
+                        <div class="infoCont">
+                            
+                                
+                            <a href="#">Políticas de privacidad</a> 
+                            
+                            <a href="#">Haz tú pedido ó reporta una devolución</a> 
+                            
+                            <a href="#">Términos y condiciones</a>
+    
+                            <a href="./Pages/contactos.html"><i class="far fa-address-book"></i>Contáctanos</a>
+                            
+                         </div>
+    
+                    </div>
+                    <div>
+                        <h6 class="derechos col-12 text-center">&copy;Todos los derechos reservados 2022</h6>
+                    </div>
+    
+                </div>
+                <div class="end">
+                    <p class="small"><a href="#top">↑ Volver arriba</a></p>
+                </div>
+            </div>
+        </footer>
+    
+    <!-- Java Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+
+    </script>
+</body>
+</html>
